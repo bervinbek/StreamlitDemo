@@ -2,4 +2,28 @@ import os
 import streamlit as st
 from google import genai
 
-st.title("Welcome to my Streamlit Demo App!\nBy Bervin")
+# Page Title Setup
+# https://docs.streamlit.io/develop/api-reference/configuration/st.set_page_config
+# st.set_page_config(page_title="Bervin", page_icon=":up:", layout="centered", initial_sidebar_state="auto", menu_items=None) 
+
+st.title("Why are you not doing work?\nBy Bervin")
+# client = genai.Client(api_key="")
+
+# ### Generate a pre-defined prompt ###
+# response = client.models.generate_content(
+#     model='gemini-2.0-flash', 
+#     contents='Tell me current affairs 8 words.'
+# )
+# st.write(response.text)
+
+
+# ### Generate a pre-defined prompt ###
+# qns = st.text_input(label="Ask Gemini Questions")
+
+# if st.button("Submit"):
+#     response2 = client.models.generate_content(
+#     model='gemini-2.0-flash', 
+#     contents=qns
+#     )
+#     st.write(response2.text)
+
